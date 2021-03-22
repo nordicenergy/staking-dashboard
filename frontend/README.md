@@ -1,12 +1,12 @@
 ![Lunie logo — right half circle with dotted left circle](/public/img/readme-header.svg)
 
-# Welcome to [Lunie.io](https://lunie.io)!
+# Welcome to [Staking](https://staking.nordicenergy.io)!
 
 [![CircleCI](https://circleci.com/gh/luniehq/lunie/tree/develop.svg?style=svg)](https://circleci.com/gh/luniehq/lunie/tree/develop)
 [![codecov](https://codecov.io/gh/luniehq/lunie/branch/develop/graph/badge.svg)](https://codecov.io/gh/luniehq/lunie)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-👋 Welcome to Lunie. We're making staking accessible for everyone. This is the repo for the Lunie web app.
+👋 Welcome to Nordic Energy Staking Platform. We're making staking accessible for everyone. This is the repo for the Nordic Energy web app.
 
 ## Development Dependencies
 
@@ -43,12 +43,12 @@ Lunie supports sending transactions through the `Cosmos` app for [Ledger Nano](h
 3. Go to the Ledger Live App Store, and download the `Cøsmos` application (this can take a while). **Note:** You may have to enable `Dev Mode` in the Ledger Live Settings to be able to download the `Cøsmos` application
 4. Navigate to the `Cøsmos` app on your Ledger device
 
-### Check out Lunie
+### Check out Nordic Energy
 
 With Node, Yarn and Docker installed, you're ready to check out the source code:
 
 ```bash
-git clone https://github.com/luniehq/lunie.git
+git clone https://github.com/nordicenergy/staking-dashboard.git
 cd lunie
 yarn install
 ```
@@ -118,8 +118,8 @@ Dependencies:
 - [Xcode 10](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 - [Cocoapods](https://guides.cocoapods.org/using/getting-started.html#installation)
 
-To open Lunie in Xcode: 
-1. Build Lunie
+To open Staking Platform in Xcode: 
+1. Build Staking Platform
 ```bash
 $ yarn build
 ```
@@ -129,7 +129,7 @@ $ yarn build
 $ npx @capacitor/cli sync ios
 ```
 
-3. This will open Xcode with Lunie loaded
+3. This will open Xcode with Staking Platform loaded
 ```bash
 $ npx @capacitor/cli open ios
 ```
