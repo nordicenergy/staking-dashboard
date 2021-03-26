@@ -77,7 +77,7 @@ export default {
         datasets: [
           {
             label: "Rate",
-            borderColor: "#0a93eb",
+            borderColor: "#cc9900",
             fill: false,
             data: data.map(v => v.apr * 100)
           }

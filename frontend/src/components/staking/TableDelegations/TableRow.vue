@@ -30,9 +30,9 @@
         <h3 class="li-validator-name">{{ data.moniker }}</h3>
       </div>
     </td>
-    <td class="hide-xs">{{ data.stake | ones | fourDecimals }} ONE</td>
+    <td class="hide-xs">{{ data.stake | ones | fourDecimals }} NET</td>
     <td v-if="!isUndelegation" class="hide-xs">
-      {{ data.rewards | ones | fourDecimals }} ONE
+      {{ data.rewards | ones | fourDecimals }} NET
     </td>
     <td v-if="!isUndelegation">
       {{ data.apr | percent | notAvailable }}

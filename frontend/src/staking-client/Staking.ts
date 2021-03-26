@@ -58,7 +58,7 @@ export default class Staking {
     }
 
     if (!this.harmony) {
-      console.error(`Harmony client is not initialize`)
+      console.error(`Nordic Energy client is not initialize`)
 
       return Promise.resolve(emptyAccount)
     }
@@ -71,7 +71,7 @@ export default class Staking {
             .asWei()
             .toSzabo()
 
-          emptyAccount.coins.push({ denom: "one", amount })
+          emptyAccount.coins.push({ denom: "net", amount })
         }
 
         return emptyAccount

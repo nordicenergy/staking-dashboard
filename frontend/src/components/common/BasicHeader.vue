@@ -6,7 +6,7 @@
                 <img
                     class="header-item-logo"
                     src="~assets/images/logo-top-right.png"
-                    alt="Harmony Staking spaceship accelerating into a colourful space sky"
+                    alt="Nordic Energy - Staking Platform"
                 />
             </a>
           </div>

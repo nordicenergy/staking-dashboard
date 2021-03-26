@@ -3,7 +3,7 @@
     <div id="session-welcome">
 
       <h2 class="session-title">
-        Welcome to Harmony
+        Welcome to Nordic Energy
       </h2>
 
       <p class="session-paragraph">
@@ -28,7 +28,7 @@
       </div>
 
       <p class="footnote">
-        By using Harmony, you accept our
+        By using Nordic Energy, you accept our
         <router-link to="/terms" class="link">
           Terms of Service
         </router-link>

@@ -106,7 +106,7 @@ export default {
     chartdata() {
       const labels = [0, 1, 2, 3].map(s => "Shard " + s)
 
-      const colors = ["#00ADE844", "#00ADE844"]
+      const colors = ["#e6ac00", "#e6ac00"]
 
       return {
         labels,

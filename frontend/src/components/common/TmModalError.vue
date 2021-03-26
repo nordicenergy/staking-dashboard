@@ -46,7 +46,7 @@ export default {
   },
   data: () => ({
     logPath: ``,
-    issueUrl: `https://github.com/harmony-one/staking-dashboard/issues`
+    issueUrl: `https://github.com/nordicenergy/staking-dashboard/issues`
   }),
   computed: {
     ...mapState([`session`]),

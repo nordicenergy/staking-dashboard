@@ -129,8 +129,8 @@
           Creating an address in the browser is unsafe. Please install
           <a
             target="_blank"
-            href="https://chrome.google.com/webstore/detail/harmony-one-wallet/fnnegphlobjdpkhecapkijjdkgcjhkib"
-            >One Wallet</a
+            href="https://chrome.google.com/webstore/detail/nordicenergy-net-wallet/fnnegphlobjdpkhecapkijjdkgcjhkib"
+            >NET Wallet</a
           >
         </p>
         <!--        <p>-->
@@ -149,7 +149,7 @@
           >
           or the
           <a
-            href="https://docs.harmony.one/home/wallet-guides/harmony-cli/create-import-wallet"
+            href="https://docs.nordicenergy.io/home/wallet-guides/nordicenergy-cli/create-import-wallet"
             target="_blank"
             rel="noopener norefferer"
             >command line</a

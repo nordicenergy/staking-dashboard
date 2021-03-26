@@ -9,7 +9,7 @@
         <HardwareState :loading="showLoading">
           <template v-if="status === `connect` || status === `detect`">
             <p style="margin-bottom: 1rem;">
-              Please plug in your Ledger&nbsp;Nano and open the Harmony Ledger
+              Please plug in your Ledger&nbsp;Nano and open the Nordic Energy Ledger
               app
             </p>
           </template>

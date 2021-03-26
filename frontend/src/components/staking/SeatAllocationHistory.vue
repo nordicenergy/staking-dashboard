@@ -83,7 +83,7 @@ export default {
         labels: epochs,
         datasets: [
           {
-            backgroundColor: '#00ADE888',
+            backgroundColor: '#e6ac00',
             borderColor: 'transparent',
             pointRadius: 0,
             minHeight: 100,
@@ -98,7 +98,7 @@ export default {
       // const epochs = Object.keys(this.data)
       // const elected = epochs.sort().map((k) => this.data[k].total_seats_used)
       // const electedPerShard = epochs.sort().map((k) => this.data[k].externalShards.map((s) => s.external))
-      // const colors = ['#00ADE8', '#4fe7c8', 'rgb(27, 41, 94)', 'rgb(117, 135, 150)']
+      // const colors = ['#CC9900', '#4fe7c8', 'rgb(27, 41, 94)', 'rgb(117, 135, 150)']
       // const datasets = [0, 1, 2, 3].map((i) => ({
       //   label: "S" + i, //not used in chart
       //   data: electedPerShard.map((d) => d[i]),

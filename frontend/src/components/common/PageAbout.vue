@@ -9,11 +9,11 @@
         </router-link>
       </p>
       <h2 class="c5">
-        What is Harmony Staking?
+        What is Nordic Energy Staking?
       </h2>
       <p>
-        Harmony Staking is a user interface for sending and receiving One tokens,
-        viewing your transaction history, delegating your ONEs, and
+        Nordic Energy Staking is a user interface for sending and receiving NET tokens,
+        viewing your transaction history, delegating your NETs, and
         participating in governance on the One Blockchain.
       </p>
       <p>
@@ -22,10 +22,10 @@
         and more enjoyable.
       </p>
       <p>
-        This software is developed by the team at Harmony Staking International Software
-        Systems Inc. We're
+        This software is developed by the team at Nordic Energy Corporation Ltd.
+        We're
         <a
-          href="https://github.com/harmony-one"
+          href="https://github.com/nordicenergy"
           target="_blank"
           rel="noopener norefferer"
         >
@@ -40,17 +40,17 @@
         Security
       </h2>
       <p>
-        Harmony Staking is non-custodial. We believe that maintaining ownership over your
+        Nordic Energy is non-custodial. We believe that maintaining ownership over your
         keys is an important part of participating in these networks.
       </p>
       <p>
         <b>
-          For your safety and security, Harmony Staking will not ask for or store your
+          For your safety and security, Nordic Energy will not ask for or store your
           private keys or seed phrases.</b
         >
       </p>
       <p>
-        To send transactions with Harmony Staking, you'll have to sign them with your
+        To send transactions with Nordic Energy Staking Platform, you'll have to sign them with your
         Ledger Nano. If you don't have a Ledger Nano, you can
         <a
           href="https://shop.ledger.com/?r=3dd204ef7508"
@@ -60,7 +60,7 @@
         >.
       </p>
       <p>
-        To learn more about our security policies on Harmony Staking, please visit our
+        To learn more about our security policies on Nordic Energy Staking, please visit our
         <router-link to="security"> security page </router-link>.
       </p>
     </div>
@@ -99,7 +99,7 @@
       <p>
         Please let us know what you think! You can find us on
         <a
-          href="https://github.com/harmony-one"
+          href="https://github.com/nordicenergy"
           target="_blank"
           rel="noopener norefferer"
         >
@@ -107,11 +107,11 @@
         >
         and
         <a
-          href="https://twitter.com/harmonyprotocol"
+          href="https://twitter.com/nordicenergy1"
           target="_blank"
           rel="noopener norefferer"
           >Twitter</a
-        >, email us at contact@harmony.one, or click the <i>feedback</i> button on
+        >, email us at info@nordicenergy.io, or click the <i>feedback</i> button on
         the left.
       </p>
     </div>

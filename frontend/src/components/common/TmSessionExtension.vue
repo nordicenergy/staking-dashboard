@@ -1,15 +1,15 @@
 <template>
   <SessionFrame title="Create New Account" image="account">
-      <h2 class="session-title">Use Harmony Browser Extension (Deprecated)</h2>
+      <h2 class="session-title">Use Nordic Energy Browser Extension (Deprecated)</h2>
       <div v-if="!extension.enabled" class="session-main">
         <p>
-          Looks like you don't have the Harmony browser extension installed yet.
+          Looks like you don't have the Nordic Energy browser extension installed yet.
           Head over to the
           <a
-            href="https://harmony.one/chrome-wallet"
+            href="https://nordicenergy/chrome-wallet"
             target="_blank"
             rel="noopener norefferer"
-            >Harmony Chrome Extension</a
+            >Nordic Energy Chrome Extension</a
           >
           to quickly install the extension.
         </p>
@@ -17,7 +17,7 @@
 
       <div v-else class="session-main">
         <p class="extension-message">
-          Below is a list of accounts we've received from the Harmony browser
+          Below is a list of accounts we've received from the Nordic Energy browser
           extension.
         </p>
         <AccountList

@@ -140,11 +140,11 @@ export default {
       const median = Math.floor(this.effStake.length / 2)
       const colors = this.effStake.map((v, i) => {
         if (even && (i === median || i === median + 1)) {
-          return "rgba(102, 161, 255, 0.75)"
+          return "rgba(204, 153, 0)"
         } else if (i === median) {
-          return "rgba(102, 161, 255, 0.75)"
+          return "rgba(204, 153, 0)"
         }
-        return "#00ADE844"
+        return "#cc9900"
       })
 
       return {
@@ -159,7 +159,7 @@ export default {
           },
           {
             label: "Bid",
-            backgroundColor: "#4fe7c888",
+            backgroundColor: "#e6ac00",
             data: this.rawStake,
             minHeight: 16,
             borderWidth: 0

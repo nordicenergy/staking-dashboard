@@ -6,7 +6,7 @@
     <div slot="subtitle">
       Even though you're connected a full node, we can't display this data for
       you right now. Please try again later or
-      <a href="https://github.com/harmony-one/staking-dashboard/issues"
+      <a href="https://github.com/nordicenergy/staking-dashboard/issues"
         >file a bug report</a
       >. Apologies!
     </div>

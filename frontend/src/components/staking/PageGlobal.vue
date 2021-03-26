@@ -22,14 +22,14 @@
               </h4>
               <span v-if="networkInfo.effective_median_stake">
                 {{ effectiveMedianStake | ones | zeroDecimals }}
-                ONE
+                NET
               </span>
               <span v-else>-</span>
             </div>
             <div id="validators_total_stake" class="networkInfo-item">
               <h4 v-tooltip.top="tooltips.v_list.total_stake">Total Stake:</h4>
               <span v-if="totalStake">
-                {{ totalStake | ones | zeroDecimals }} ONE
+                {{ totalStake | ones | zeroDecimals }} NET
               </span>
               <span v-else>-</span>
             </div>

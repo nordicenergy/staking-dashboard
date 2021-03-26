@@ -46,7 +46,7 @@ export default {
   width: 100%;
   padding: 1rem;
   font-family: var(--helvetica);
-  background-color: #551f38;
+  background-color: #664d00;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;

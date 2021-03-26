@@ -135,7 +135,7 @@ export default {
     getAddressTypeDescription(addressType) {
       if (addressType === "explore") return `Explore Mode`
       if (addressType === "ledger") return `Ledger Nano S`
-      if (addressType === "extension") return `Harmony Browser Extension`
+      if (addressType === "extension") return `Nordic Energy Browser Extension`
     },
     exploreWith(address) {
       window.ga(`send`, {

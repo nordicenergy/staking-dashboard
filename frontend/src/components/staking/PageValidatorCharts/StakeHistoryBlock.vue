@@ -82,13 +82,13 @@ export default {
           {
             label: "Self delegated",
             lineTension: 0,
-            backgroundColor: "#00ADE8BB",
+            backgroundColor: "#cc9900",
             data: this.history.map(v => ones(v.self_stake))
           },
           {
             label: "Delegated",
             lineTension: 0,
-            backgroundColor: "#00ADE844",
+            backgroundColor: "#cc9900",
             data: this.history.map(v => ones(v.total_stake - v.self_stake))
           }
         ]

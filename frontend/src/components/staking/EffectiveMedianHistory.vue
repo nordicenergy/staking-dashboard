@@ -57,7 +57,7 @@ export default {
           {
             scaleLabel: {
               display: true,
-              labelString: 'ONE'
+              labelString: 'NET'
             },
             display: true,
             gridLines: {
@@ -81,7 +81,7 @@ export default {
         datasets: [
           {
             label: "epoch",
-            backgroundColor: '#00ADE888',
+            backgroundColor: '#cc9900',
             borderColor: 'transparent',
             pointRadius: 0,
         lineTension: 0,

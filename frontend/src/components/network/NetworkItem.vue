@@ -4,7 +4,7 @@
     :class="{ active: connection.network === network.id }"
   >
     <div class="network-icon">
-      <img :src=network.logo_url alt="harmony one token" />
+      <img :src=network.logo_url alt="nordic energy token" />
     </div>
     <div class="network-content">
       <h4 class="network-title">

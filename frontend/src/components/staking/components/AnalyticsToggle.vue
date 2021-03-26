@@ -49,7 +49,7 @@ export default {
     text-transform: uppercase;
 
     &.active {
-      // color: #1b295e;
+      // color: #b38600;
       color: var(--blue);
 
       &:after {
@@ -59,7 +59,7 @@ export default {
         width: 100%;
         height: 2px;
         background-color: var(--blue);
-        // background-color: #1b295e;
+        // background-color: #b38600;
         opacity: 0.8;
         border-radius: 10px;
         bottom: -16px;

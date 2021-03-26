@@ -1,7 +1,7 @@
 import admin from 'firebase-admin';
 const serviceAccount = require('../../keys/staking_explorer.json');
 
-const DATABASE_URL = process.env.DATABASE_URL || 'https://staking-explorer.firebaseio.com';
+const DATABASE_URL = process.env.DATABASE_URL || 'https://staking-explorer.nordicenergy';
 
 export class DBService {
   public db: admin.firestore.Firestore;

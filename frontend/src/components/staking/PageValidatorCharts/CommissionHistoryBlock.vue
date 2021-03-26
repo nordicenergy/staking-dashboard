@@ -134,7 +134,7 @@ export default {
           {
             label: "Rate",
             fill: false,
-            borderColor: "#0a93eb",
+            borderColor: "#cc9900",
             lineTension: 0,
             data: this.history.map(
               v => Math.round(v.rate * 10000) / 100

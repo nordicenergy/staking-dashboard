@@ -30,7 +30,7 @@
           v-if="!isMobileApp"
           id="use-onewallet"
           icon="extension"
-          title="Use Harmony One Wallet"
+          title="Use Nordic Energy NET Wallet"
           route="onewallet"
         />
 
@@ -52,7 +52,7 @@
           v-if="!isMobileApp"
           id="use-extension"
           icon="laptop"
-          title="Use Harmony Browser Extension (Deprecated)"
+          title="Use Nordic Energy Browser Extension (Deprecated)"
           route="extension"
         >
         </LiSession>

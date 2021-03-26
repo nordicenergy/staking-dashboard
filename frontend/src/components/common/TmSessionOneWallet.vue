@@ -1,16 +1,16 @@
 <template>
   <SessionFrame>
     <div class="session-container">
-      <h2 class="session-title">Use Harmony One Wallet Extension</h2>
+      <h2 class="session-title">Use Nordic Energy Wallet Extension</h2>
       <div v-if="!isOneWallet" class="session-main">
         <p>
-          Looks like you don't have the Harmony One Wallet extension installed
+          Looks like you don't have the Nordic Energy Wallet extension installed
           yet. Head over to the
           <a
-            href="https://chrome.google.com/webstore/detail/harmony-one-wallet/fnnegphlobjdpkhecapkijjdkgcjhkib"
+            href="https://chrome.google.com/webstore/detail/nordicenergy-net-wallet/fnnegphlobjdpkhecapkijjdkgcjhkib"
             target="_blank"
             rel="noopener norefferer"
-          >Harmony One Wallet</a>
+          >Nordic Energy Wallet</a>
           to quickly install the extension.
         </p>
       </div>
@@ -26,7 +26,7 @@ import SessionFrame from "common/SessionFrame"
 import TmBtn from "common/TmBtn"
 import { mapState } from "vuex"
 export default {
-  name: `session-onewallet`,
+  name: `session-netwallet`,
   components: {
     SessionFrame,
     TmBtn
@@ -43,7 +43,7 @@ export default {
     async signIn(address) {
       window.onewallet.getAccount().then(account => {
         this.$store.dispatch(`signIn`, {
-          sessionType: `onewallet`,
+          sessionType: `netwallet`,
           address: account.address
         })
         this.$router.push(`/`)

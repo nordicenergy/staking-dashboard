@@ -26,7 +26,7 @@ export default {
 }
 
 .widget-portfolio {
-  border: 1px solid #d9d9e0;
+  border: 1px solid #e6ac00;
   border-radius: var(--half);
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ export default {
 
 .widget-title {
   font-size: 20px;
-  color: #0b93ea;
+  color: #e6ac00;
   margin: 0px 20px 0px 20px;
 }
 

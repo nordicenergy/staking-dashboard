@@ -58,7 +58,7 @@ export default {
           {
             scaleLabel: {
               display: true,
-              labelString: 'ONE'
+              labelString: 'NET'
             },
             display: true,
             gridLines: {
@@ -81,8 +81,8 @@ export default {
         labels: epochs,
         datasets: [
           {
-            label: "Staked ONE distribution",
-            backgroundColor: '#00ADE888',
+            label: "Staked NET distribution",
+            backgroundColor: '#e6ac00',
             borderColor: 'transparent',
             pointRadius: 0,
             minHeight: 16,

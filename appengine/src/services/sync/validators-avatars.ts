@@ -82,7 +82,7 @@ export class ValidatorsAvatarCacheService {
     }
 
     fetchGithubAvatarByValidatorAddress = async (validatorAddress) => {
-        const url = `https://github.com/harmony-one/validator-logos/raw/master/validators/${validatorAddress}.jpg`
+        const url = `https://github.com/nordicenergy.io/validator-logos/raw/master/validators/${validatorAddress}.jpg`
 
         try {
             return await requestPromise({url})

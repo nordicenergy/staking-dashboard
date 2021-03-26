@@ -93,7 +93,7 @@ export default {
           tooltip: `Stake of validator`,
           width: "150px",
           align: "right",
-          render: value => zeroDecimals(ones(value)) + " ONE"
+          render: value => zeroDecimals(ones(value)) + " NET"
         }
       ]
 
@@ -122,7 +122,7 @@ export default {
             tooltip: tooltips.portfolio.reward_up_to_date,
             width: "200px",
             align: "right",
-            render: value => zeroDecimals(ones(value)) + " ONE"
+            render: value => zeroDecimals(ones(value)) + " NET"
           },
           {
             title: `Expected Return`,

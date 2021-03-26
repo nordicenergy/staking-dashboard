@@ -6,5 +6,5 @@ export interface IAccount {
     type: string
   }
   account_number: string
-  coins: Array<{ denom: "one"; amount: string }>
+  coins: Array<{ denom: "net"; amount: string }>
 }

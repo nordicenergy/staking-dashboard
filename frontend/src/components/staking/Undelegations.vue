@@ -77,7 +77,7 @@ export default {
         {
           title: `Effective`,
           value: `effective_stake`,
-          tooltip: `Validator's effective ONE staked`,
+          tooltip: `Validator's effective NET staked`,
           width: "130px",
           align: 'right',
           render: value => zeroDecimals(ones(value))
